@@ -1,0 +1,30 @@
+.specs-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5em;
+    padding: 2em 1.8em 2em 1.8em;
+
+    > .specs-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5em;
+    }
+
+    /// Small devices (portrait tablets and large phones, 600px and up)
+    @media only screen and (min-width: 600px) {
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    /// Medium devices (landscape tablets, 768px and up)
+    @media only screen and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+        align-items: flex-start;
+        gap: 1.5em;
+        padding-left: 6em;
+        padding-right: 6em;
+    }
+}

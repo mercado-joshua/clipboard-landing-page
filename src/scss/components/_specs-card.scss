@@ -1,0 +1,17 @@
+.specs-card {
+    > .contentbox {
+        > .title,
+        > .description {
+            text-align: center;
+        }
+
+        > .title {
+            margin-bottom: .5em;
+        }
+
+        > .description {
+            margin: 0;
+            opacity: .7;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.companies-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+    padding: 5em 1.8em 5em 1.8em;
+
+    /// Small devices (portrait tablets and large phones, 600px and up)
+    @media only screen and (min-width: 600px) {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+        gap: 2.5em;
+        justify-items: center;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    /// Medium devices (landscape tablets, 768px and up)
+    @media only screen and (min-width: 768px) {
+        padding-left: 6em;
+        padding-right: 6em;
+    }
+}

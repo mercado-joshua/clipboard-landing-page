@@ -1,0 +1,16 @@
+.quicklink-menu {
+    > .item > .link {
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        color: hsl(210, 10%, 33%);
+    }
+
+    /// Medium devices (landscape tablets, 768px and up)
+    @media only screen and (min-width: 768px) {
+        > .item > .link {
+            text-align: left;
+        }
+    }
+}

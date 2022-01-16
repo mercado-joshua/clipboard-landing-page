@@ -1,0 +1,18 @@
+.cta-btn {
+    all: unset;
+    cursor: pointer;
+    padding: .5em 0;
+    text-align: center;
+    width: 100%;
+    border-radius: 5em;
+    box-shadow: 1px 2px 2px grey;
+    color: #fff;
+
+    &.-cyan {
+        background-color: hsl(171, 66%, 44%);
+    }
+
+    &.-lightblue {
+        background-color: hsl(233, 100%, 69%);
+    }
+}

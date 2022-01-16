@@ -1,0 +1,36 @@
+.info-section {
+    padding: 5em 1.8em 2em 1.8em;
+
+    > .title,
+    > .description {
+        text-align: center;
+    }
+
+    > .title {
+        margin-bottom: .7em;
+        font-size: 1.7rem;
+    }
+
+    > .description {
+        margin: 0;
+        opacity: .7;
+    }
+
+    /// Small devices (portrait tablets and large phones, 600px and up)
+    @media only screen and (min-width: 600px) {
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    /// Medium devices (landscape tablets, 768px and up)
+    @media only screen and (min-width: 768px) {
+        padding-left: 6em;
+        padding-right: 6em;
+    }
+    
+    /// Large devices (laptops/desktops, 992px and up)
+    @media only screen and (min-width: 992px) {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+}

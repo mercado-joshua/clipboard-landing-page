@@ -1,0 +1,65 @@
+.download-section {
+    padding: 1em 1.8em 5em 1.8em;
+
+    > .contentbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5em;
+        
+        > .descriptionbox {
+            > .title,
+            > .description {
+                text-align: center;
+            }
+
+            > .title {
+                font-size: 2rem;
+                margin-bottom: .7em;
+            }
+
+            > .description {
+                margin: 0;
+                opacity: .7;
+            }
+        }
+
+        > .actionbox {
+            > .cta-btn + .cta-btn {
+                margin-top: 1em;
+            }
+        }
+    }
+
+    /// Small devices (portrait tablets and large phones, 600px and up)
+    @media only screen and (min-width: 600px) {
+        padding-left: 4em;
+        padding-right: 4em;
+
+        > .contentbox {
+            gap: 2.5em;
+
+            > .actionbox {
+                display: flex;
+                gap: 1em;
+                width: 80%;
+
+                > .cta-btn + .cta-btn {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+
+    /// Medium devices (landscape tablets, 768px and up)
+    @media only screen and (min-width: 768px) {
+        padding-left: 6em;
+        padding-right: 6em;
+    }
+
+    /// Large devices (laptops/desktops, 992px and up)
+    @media only screen and (min-width: 992px) {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+}

@@ -6,18 +6,12 @@
 * Checkout `screenshots` folder for website screen images. 
 
 ## Type
----
 Converted website from design mockup.
 
 ## Goal
----
 1. To practice implementing mobile-first approach and css layout development like grid, flex-box and media queries.
 
 2. Convert website based on given web design specifications.
-
-## When the project finished
----
-Took 2 days to finish.
 
 ## Description
 ---
